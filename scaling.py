@@ -1,6 +1,7 @@
 # Contains functions for scaling copied from analyze_data_stability.py
 # but with inverse and saving of scaler
 from sklearn.preprocessing import RobustScaler, MinMaxScaler
+import pandas as pd
 import numpy as np
 
 
@@ -57,7 +58,7 @@ def scale_minmax(test_data_scaled, col, thresh, border):
 
 
 # todo: split into scale train and scale test
-def scale_data(train_df, test_df, thresh=3, border=2, quantile_range=(10,90), scale_test=False):
+def scale_data(train_df, test_df=None, thresh=3, border=2, quantile_range=(10,90), scale_test=False):
     train_data_scaled = train_df.copy()
     test_data_scaled = None
     if test_df is not None:
@@ -183,9 +184,6 @@ def mm_scale_test(test_df, col, mm_pos=None, mm_neg=None, thresh=3):
     return test_df
 
 
-import pandas as pd
-
-
 def test_scale_inverse():
     df_test = pd.DataFrame([[1, 1, 1, 1, 1, 1.2], [0, 10, 500, 600, -100, -200]]).T
 
@@ -230,49 +228,3 @@ def test_scale():
     print(scalers)
     print("df_test_scaled2")
     print(df_test_scaled2)
-
-
-def test_3100II01800_PV():
-    from experiments.read import read_compressor_df
-    import matplotlib.pyplot as  plt
-    df = read_compressor_df("3100K0001")
-    print(df.columns)
-    df = df[['3100II01800.PV']]
-
-    # date_end = pd.Timestamp.strptime("2015-10-18_00-00-00", "%Y-%m-%d_%H-%M-%S")
-
-    df_train = df.loc[:"2015-10-18T00:00:00"]
-    df_test = df.loc["2015-10-18T14:00:00":"2015-10-19T00:00:00"]
-
-    df_train_scaled, df_test_scaled, scalers = scale_data(df_train, df_test)
-    print("test scaled")
-    print(df_test_scaled)
-
-    # todo: finish
-    df_test_inverted = inverse_scale_data(df_test_scaled, scalers)
-
-    print("test inverted")
-    print(df_test_inverted)
-
-    fig = plt.figure()
-    ax = plt.gca()
-    df_test_inverted.plot(label='inverted', legend=True, ax=ax)
-    df_test.plot(style='r-', label='true', legend=True, ax=ax)
-    plt.savefig("test_3100II01800_PV_inverted.png")
-
-    fig = plt.figure()
-    df_test_scaled.plot()
-    plt.savefig("test_3100II01800_PV_scaled.png")
-
-
-if __name__ == "__main__":
-
-    import os
-    import sys
-
-    if os.getcwd().endswith('nn_node'):
-        os.chdir("..")
-    print(os.getcwd())
-    sys.path.append(os.getcwd())
-
-    test_3100II01800_PV()
