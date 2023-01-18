@@ -1,0 +1,1638 @@
+{
+  "detected_anomalies": {
+    "outliers": [
+      {
+        "index": 1039,
+        "true_label": "(0.999, 6.0]",
+        "pred_label": "(10.0, 11.0]",
+        "column_name": "rings",
+        "anomaly_score": 10.11964798985039
+      },
+      {
+        "index": 1755,
+        "true_label": "(6.0, 7.0]",
+        "pred_label": "(16.0, 29.0]",
+        "column_name": "rings",
+        "anomaly_score": 7.96661350751128
+      },
+      {
+        "index": 90,
+        "true_label": "(1.701, 100.0]",
+        "pred_label": "(0.8, 0.868]",
+        "column_name": "whole_weight",
+        "anomaly_score": 6.893479932928596
+      },
+      {
+        "index": 2944,
+        "true_label": "(6.0, 7.0]",
+        "pred_label": "(16.0, 29.0]",
+        "column_name": "rings",
+        "anomaly_score": 6.71239071761144
+      },
+      {
+        "index": 3593,
+        "true_label": "(0.125, 0.14]",
+        "pred_label": "(0.298, 0.326]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 6.6002492466879845
+      },
+      {
+        "index": 1812,
+        "true_label": "(1.701, 100.0]",
+        "pred_label": "(1.154, 1.24]",
+        "column_name": "whole_weight",
+        "anomaly_score": 6.154508040124707
+      },
+      {
+        "index": 2641,
+        "true_label": "(0.126, 0.205]",
+        "pred_label": "(0.442, 0.508]",
+        "column_name": "whole_weight",
+        "anomaly_score": 6.136210865177095
+      },
+      {
+        "index": 245,
+        "true_label": "(9.0, 10.0]",
+        "pred_label": "(0.999, 6.0]",
+        "column_name": "rings",
+        "anomaly_score": 5.968623855004358
+      },
+      {
+        "index": 1216,
+        "true_label": "(0.434, 0.468]",
+        "pred_label": "(0.0, 0.0524]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 5.941685790219334
+      },
+      {
+        "index": 3139,
+        "true_label": "(10.0, 11.0]",
+        "pred_label": "(0.999, 6.0]",
+        "column_name": "rings",
+        "anomaly_score": 5.889670074634557
+      },
+      {
+        "index": 3086,
+        "true_label": "(0.304, 0.336]",
+        "pred_label": "(0.0524, 0.0865]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 5.878330973072007
+      },
+      {
+        "index": 821,
+        "true_label": "(0.135, 0.14]",
+        "pred_label": "(0.09, 0.095]",
+        "column_name": "height",
+        "anomaly_score": 5.786331519895499
+      },
+      {
+        "index": 999,
+        "true_label": "(0.15, 0.17]",
+        "pred_label": "(0.287, 0.308]",
+        "column_name": "shell_weight",
+        "anomaly_score": 5.729031644888495
+      },
+      {
+        "index": 4089,
+        "true_label": "(0.35, 0.365]",
+        "pred_label": "(0.47, 0.48]",
+        "column_name": "diameter",
+        "anomaly_score": 5.643003222821893
+      },
+      {
+        "index": 2084,
+        "true_label": "(1.24, 1.34]",
+        "pred_label": "(1.701, 100.0]",
+        "column_name": "whole_weight",
+        "anomaly_score": 5.412406924259739
+      },
+      {
+        "index": 2582,
+        "true_label": "(0.999, 6.0]",
+        "pred_label": "(13.0, 14.0]",
+        "column_name": "rings",
+        "anomaly_score": 5.38811545641037
+      },
+      {
+        "index": 1264,
+        "true_label": "(0.336, 0.368]",
+        "pred_label": "(0.157, 0.186]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 5.292917598409203
+      },
+      {
+        "index": 3814,
+        "true_label": "(0.19, 0.21]",
+        "pred_label": "(0.065, 0.085]",
+        "column_name": "shell_weight",
+        "anomaly_score": 5.228285485166005
+      },
+      {
+        "index": 2619,
+        "true_label": "(7.0, 8.0]",
+        "pred_label": "(10.0, 11.0]",
+        "column_name": "rings",
+        "anomaly_score": 5.20668550554967
+      },
+      {
+        "index": 3486,
+        "true_label": "(0.49, 0.51]",
+        "pred_label": "(0.6, 0.615]",
+        "column_name": "length",
+        "anomaly_score": 5.159439221581
+      },
+      {
+        "index": 3306,
+        "true_label": "(9.0, 10.0]",
+        "pred_label": "(6.0, 7.0]",
+        "column_name": "rings",
+        "anomaly_score": 5.13713809007552
+      },
+      {
+        "index": 4017,
+        "true_label": "(0.17, 0.19]",
+        "pred_label": "(0.42, 0.48]",
+        "column_name": "shell_weight",
+        "anomaly_score": 4.815915049944954
+      },
+      {
+        "index": 1460,
+        "true_label": "(0.075, 0.09]",
+        "pred_label": "(0.115, 0.12]",
+        "column_name": "height",
+        "anomaly_score": 4.761394668398076
+      },
+      {
+        "index": 3996,
+        "true_label": "(0.329, 0.352]",
+        "pred_label": "(0.0384, 0.065]",
+        "column_name": "shell_weight",
+        "anomaly_score": 4.612793238517152
+      },
+      {
+        "index": 270,
+        "true_label": "(1.701, 100.0]",
+        "pred_label": "(1.34, 1.479]",
+        "column_name": "whole_weight",
+        "anomaly_score": 4.594481550151467
+      },
+      {
+        "index": 409,
+        "true_label": "(0.09, 0.095]",
+        "pred_label": "(0.14, 0.15]",
+        "column_name": "height",
+        "anomaly_score": 4.466326720881505
+      },
+      {
+        "index": 1098,
+        "true_label": "(0.46, 0.47]",
+        "pred_label": "(0.35, 0.365]",
+        "column_name": "diameter",
+        "anomaly_score": 4.42942893402032
+      },
+      {
+        "index": 2962,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 4.42586051439117
+      },
+      {
+        "index": 1675,
+        "true_label": "(6.0, 7.0]",
+        "pred_label": "(16.0, 29.0]",
+        "column_name": "rings",
+        "anomaly_score": 4.321047213567636
+      },
+      {
+        "index": 3824,
+        "true_label": "(6.0, 7.0]",
+        "pred_label": "(10.0, 11.0]",
+        "column_name": "rings",
+        "anomaly_score": 4.305053949235883
+      },
+      {
+        "index": 3346,
+        "true_label": "(0.155, 0.16]",
+        "pred_label": "(0.105, 0.115]",
+        "column_name": "height",
+        "anomaly_score": 4.277029977851059
+      },
+      {
+        "index": 1699,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 4.270804489749396
+      },
+      {
+        "index": 944,
+        "true_label": "(0.999, 6.0]",
+        "pred_label": "(7.0, 8.0]",
+        "column_name": "rings",
+        "anomaly_score": 4.237567170490302
+      },
+      {
+        "index": 1790,
+        "true_label": "(0.365, 0.38]",
+        "pred_label": "(0.47, 0.48]",
+        "column_name": "diameter",
+        "anomaly_score": 4.230329440580778
+      },
+      {
+        "index": 4052,
+        "true_label": "(1.701, 100.0]",
+        "pred_label": "(1.34, 1.479]",
+        "column_name": "whole_weight",
+        "anomaly_score": 4.228626392846798
+      },
+      {
+        "index": 1385,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 4.202962235480784
+      },
+      {
+        "index": 3459,
+        "true_label": "(7.0, 8.0]",
+        "pred_label": "(10.0, 11.0]",
+        "column_name": "rings",
+        "anomaly_score": 4.186907851973387
+      },
+      {
+        "index": 2397,
+        "true_label": "I",
+        "pred_label": "M",
+        "column_name": "sex",
+        "anomaly_score": 4.168540128453908
+      },
+      {
+        "index": 3100,
+        "true_label": "(0.109, 0.13]",
+        "pred_label": "(0.25, 0.27]",
+        "column_name": "shell_weight",
+        "anomaly_score": 4.128872766941145
+      },
+      {
+        "index": 1431,
+        "true_label": "(0.13, 0.135]",
+        "pred_label": "(0.075, 0.09]",
+        "column_name": "height",
+        "anomaly_score": 4.113241222363212
+      },
+      {
+        "index": 3860,
+        "true_label": "(1.004, 1.084]",
+        "pred_label": "(0.8, 0.868]",
+        "column_name": "whole_weight",
+        "anomaly_score": 4.092627851815109
+      },
+      {
+        "index": 1034,
+        "true_label": "(0.17, 0.19]",
+        "pred_label": "(0.38, 0.42]",
+        "column_name": "shell_weight",
+        "anomaly_score": 4.061056028494036
+      },
+      {
+        "index": 136,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 4.000715296172404
+      },
+      {
+        "index": 1958,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.9917217149731705
+      },
+      {
+        "index": 2581,
+        "true_label": "(0.999, 6.0]",
+        "pred_label": "(7.0, 8.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.987717513215324
+      },
+      {
+        "index": 2051,
+        "true_label": "(0.2, 1.13]",
+        "pred_label": "(0.115, 0.12]",
+        "column_name": "height",
+        "anomaly_score": 3.987375679953764
+      },
+      {
+        "index": 3186,
+        "true_label": "(0.999, 6.0]",
+        "pred_label": "(7.0, 8.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.9832065103979057
+      },
+      {
+        "index": 2948,
+        "true_label": "(7.0, 8.0]",
+        "pred_label": "(10.0, 11.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.9805687769410603
+      },
+      {
+        "index": 2123,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.9584766943584704
+      },
+      {
+        "index": 2993,
+        "true_label": "(0.425, 0.435]",
+        "pred_label": "(0.522, 0.545]",
+        "column_name": "diameter",
+        "anomaly_score": 3.957303136072404
+      },
+      {
+        "index": 3542,
+        "true_label": "(0.425, 0.435]",
+        "pred_label": "(0.35, 0.365]",
+        "column_name": "diameter",
+        "anomaly_score": 3.9463438597048075
+      },
+      {
+        "index": 367,
+        "true_label": "(0.115, 0.12]",
+        "pred_label": "(0.155, 0.16]",
+        "column_name": "height",
+        "anomaly_score": 3.945880474363135
+      },
+      {
+        "index": 2197,
+        "true_label": "(9.0, 10.0]",
+        "pred_label": "(6.0, 7.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.9421847963957366
+      },
+      {
+        "index": 46,
+        "true_label": "(0.218, 0.234]",
+        "pred_label": "(0.108, 0.125]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.9359902055705787
+      },
+      {
+        "index": 3337,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.9335420094126836
+      },
+      {
+        "index": 1302,
+        "true_label": "(0.508, 0.58]",
+        "pred_label": "(0.724, 0.8]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.91223670611678
+      },
+      {
+        "index": 530,
+        "true_label": "(0.18, 0.185]",
+        "pred_label": "(0.135, 0.14]",
+        "column_name": "height",
+        "anomaly_score": 3.9093985551666988
+      },
+      {
+        "index": 2206,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.9054985641827216
+      },
+      {
+        "index": 1795,
+        "true_label": "(0.425, 0.435]",
+        "pred_label": "(0.522, 0.545]",
+        "column_name": "diameter",
+        "anomaly_score": 3.9039502677554605
+      },
+      {
+        "index": 1849,
+        "true_label": "(0.171, 0.185]",
+        "pred_label": "(0.108, 0.125]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.90032008832917
+      },
+      {
+        "index": 1174,
+        "true_label": "(-0.001, 0.075]",
+        "pred_label": "(0.165, 0.175]",
+        "column_name": "height",
+        "anomaly_score": 3.8948949736335856
+      },
+      {
+        "index": 1789,
+        "true_label": "(0.38, 0.395]",
+        "pred_label": "(0.47, 0.48]",
+        "column_name": "diameter",
+        "anomaly_score": 3.892901811439893
+      },
+      {
+        "index": 3159,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.891480362423346
+      },
+      {
+        "index": 1782,
+        "true_label": "(0.35, 0.365]",
+        "pred_label": "(0.425, 0.435]",
+        "column_name": "diameter",
+        "anomaly_score": 3.882888933697261
+      },
+      {
+        "index": 1210,
+        "true_label": "(0.074, 0.295]",
+        "pred_label": "(0.45, 0.47]",
+        "column_name": "length",
+        "anomaly_score": 3.8774239818744833
+      },
+      {
+        "index": 3384,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.8752416562728853
+      },
+      {
+        "index": 991,
+        "true_label": "(6.0, 7.0]",
+        "pred_label": "(10.0, 11.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.856675504296848
+      },
+      {
+        "index": 1780,
+        "true_label": "(0.325, 0.35]",
+        "pred_label": "(0.41, 0.425]",
+        "column_name": "diameter",
+        "anomaly_score": 3.855612434305199
+      },
+      {
+        "index": 3050,
+        "true_label": "(0.48, 1.005]",
+        "pred_label": "(0.27, 0.287]",
+        "column_name": "shell_weight",
+        "anomaly_score": 3.850427594704308
+      },
+      {
+        "index": 224,
+        "true_label": "(0.365, 0.38]",
+        "pred_label": "(0.3, 0.325]",
+        "column_name": "diameter",
+        "anomaly_score": 3.8459650870245845
+      },
+      {
+        "index": 2627,
+        "true_label": "(0.468, 0.502]",
+        "pred_label": "(0.0, 0.0524]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.8429490878896884
+      },
+      {
+        "index": 3161,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.839689621158647
+      },
+      {
+        "index": 443,
+        "true_label": "(9.0, 10.0]",
+        "pred_label": "(6.0, 7.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.839484758706464
+      },
+      {
+        "index": 3183,
+        "true_label": "(0.105, 0.115]",
+        "pred_label": "(0.15, 0.155]",
+        "column_name": "height",
+        "anomaly_score": 3.825949518035638
+      },
+      {
+        "index": 2240,
+        "true_label": "(0.0524, 0.0865]",
+        "pred_label": "(0.157, 0.186]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.817574831697188
+      },
+      {
+        "index": 2537,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.8133067382035377
+      },
+      {
+        "index": 762,
+        "true_label": "(0.214, 0.244]",
+        "pred_label": "(0.368, 0.4]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.797337663308927
+      },
+      {
+        "index": 3168,
+        "true_label": "(0.105, 0.115]",
+        "pred_label": "(0.155, 0.16]",
+        "column_name": "height",
+        "anomaly_score": 3.78689663811239
+      },
+      {
+        "index": 2117,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.774757778923714
+      },
+      {
+        "index": 3888,
+        "true_label": "(0.095, 0.105]",
+        "pred_label": "(0.15, 0.155]",
+        "column_name": "height",
+        "anomaly_score": 3.772466161516693
+      },
+      {
+        "index": 3621,
+        "true_label": "(7.0, 8.0]",
+        "pred_label": "(10.0, 11.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.732065972527598
+      },
+      {
+        "index": 1351,
+        "true_label": "(0.108, 0.125]",
+        "pred_label": "(0.218, 0.234]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.7232580932058625
+      },
+      {
+        "index": 3762,
+        "true_label": "(0.525, 0.545]",
+        "pred_label": "(0.425, 0.45]",
+        "column_name": "length",
+        "anomaly_score": 3.7229177284260633
+      },
+      {
+        "index": 1777,
+        "true_label": "(0.325, 0.35]",
+        "pred_label": "(0.41, 0.425]",
+        "column_name": "diameter",
+        "anomaly_score": 3.7225415133225965
+      },
+      {
+        "index": 132,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.717225202226559
+      },
+      {
+        "index": 3097,
+        "true_label": "(0.108, 0.125]",
+        "pred_label": "(0.201, 0.218]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.7007728405870552
+      },
+      {
+        "index": 445,
+        "true_label": "(0.185, 0.2]",
+        "pred_label": "(0.13, 0.135]",
+        "column_name": "height",
+        "anomaly_score": 3.699505770762661
+      },
+      {
+        "index": 1584,
+        "true_label": "(0.999, 6.0]",
+        "pred_label": "(7.0, 8.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.696317307522597
+      },
+      {
+        "index": 2407,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.684638639952982
+      },
+      {
+        "index": 2916,
+        "true_label": "(0.38, 0.76]",
+        "pred_label": "(0.218, 0.234]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.65492333954099
+      },
+      {
+        "index": 3081,
+        "true_label": "(0.502, 0.542]",
+        "pred_label": "(0.74, 1.488]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.6414543543639804
+      },
+      {
+        "index": 3856,
+        "true_label": "(8.0, 9.0]",
+        "pred_label": "(0.999, 6.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.6362950906709814
+      },
+      {
+        "index": 1162,
+        "true_label": "(0.74, 1.488]",
+        "pred_label": "(0.542, 0.59]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.634377751450117
+      },
+      {
+        "index": 783,
+        "true_label": "(0.12, 0.125]",
+        "pred_label": "(0.09, 0.095]",
+        "column_name": "height",
+        "anomaly_score": 3.629512546622879
+      },
+      {
+        "index": 2407,
+        "true_label": "(0.425, 0.435]",
+        "pred_label": "(0.495, 0.505]",
+        "column_name": "diameter",
+        "anomaly_score": 3.623185907667083
+      },
+      {
+        "index": 641,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.616000740919275
+      },
+      {
+        "index": 660,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.610742008705033
+      },
+      {
+        "index": 627,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.609451248569021
+      },
+      {
+        "index": 675,
+        "true_label": "(0.175, 0.18]",
+        "pred_label": "(0.12, 0.125]",
+        "column_name": "height",
+        "anomaly_score": 3.605813929000444
+      },
+      {
+        "index": 586,
+        "true_label": "(0.165, 0.175]",
+        "pred_label": "(0.12, 0.125]",
+        "column_name": "height",
+        "anomaly_score": 3.6054375036070425
+      },
+      {
+        "index": 2678,
+        "true_label": "(6.0, 7.0]",
+        "pred_label": "(10.0, 11.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.601561040540391
+      },
+      {
+        "index": 2890,
+        "true_label": "(0.51, 0.525]",
+        "pred_label": "(0.585, 0.6]",
+        "column_name": "length",
+        "anomaly_score": 3.5912238340245177
+      },
+      {
+        "index": 2650,
+        "true_label": "(0.15, 0.155]",
+        "pred_label": "(0.115, 0.12]",
+        "column_name": "height",
+        "anomaly_score": 3.590476212184772
+      },
+      {
+        "index": 2408,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.577854188650927
+      },
+      {
+        "index": 2790,
+        "true_label": "(0.38, 0.76]",
+        "pred_label": "(0.234, 0.253]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.570716366117774
+      },
+      {
+        "index": 1268,
+        "true_label": "(10.0, 11.0]",
+        "pred_label": "(6.0, 7.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.566019622653913
+      },
+      {
+        "index": 1678,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.565667310552477
+      },
+      {
+        "index": 3915,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.557358825095274
+      },
+      {
+        "index": 3688,
+        "true_label": "I",
+        "pred_label": "M",
+        "column_name": "sex",
+        "anomaly_score": 3.55503189580368
+      },
+      {
+        "index": 3140,
+        "true_label": "(0.42, 0.48]",
+        "pred_label": "(0.25, 0.27]",
+        "column_name": "shell_weight",
+        "anomaly_score": 3.5466766720255225
+      },
+      {
+        "index": 3687,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.544890245345232
+      },
+      {
+        "index": 2475,
+        "true_label": "(1.154, 1.24]",
+        "pred_label": "(0.868, 0.93]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.5383353111771667
+      },
+      {
+        "index": 1270,
+        "true_label": "(0.175, 0.18]",
+        "pred_label": "(0.115, 0.12]",
+        "column_name": "height",
+        "anomaly_score": 3.5368963904653716
+      },
+      {
+        "index": 2728,
+        "true_label": "(0.868, 0.93]",
+        "pred_label": "(0.442, 0.508]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.5243210254406945
+      },
+      {
+        "index": 2019,
+        "true_label": "(0.45, 0.46]",
+        "pred_label": "(0.38, 0.395]",
+        "column_name": "diameter",
+        "anomaly_score": 3.523549754332334
+      },
+      {
+        "index": 2420,
+        "true_label": "(12.0, 13.0]",
+        "pred_label": "(6.0, 7.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.5189526139605776
+      },
+      {
+        "index": 4001,
+        "true_label": "(0.336, 0.368]",
+        "pred_label": "(0.186, 0.214]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.508278797934439
+      },
+      {
+        "index": 2089,
+        "true_label": "(0.185, 0.201]",
+        "pred_label": "(0.38, 0.76]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.508035639366123
+      },
+      {
+        "index": 3365,
+        "true_label": "(10.0, 11.0]",
+        "pred_label": "(6.0, 7.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.505606261445863
+      },
+      {
+        "index": 2478,
+        "true_label": "(0.175, 0.18]",
+        "pred_label": "(0.115, 0.12]",
+        "column_name": "height",
+        "anomaly_score": 3.4978480106496983
+      },
+      {
+        "index": 3686,
+        "true_label": "(0.13, 0.135]",
+        "pred_label": "(0.165, 0.175]",
+        "column_name": "height",
+        "anomaly_score": 3.4904433833763475
+      },
+      {
+        "index": 1342,
+        "true_label": "I",
+        "pred_label": "M",
+        "column_name": "sex",
+        "anomaly_score": 3.466578126271305
+      },
+      {
+        "index": 2402,
+        "true_label": "(0.16, 0.165]",
+        "pred_label": "(0.115, 0.12]",
+        "column_name": "height",
+        "anomaly_score": 3.4622551419630128
+      },
+      {
+        "index": 679,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.4568486569821273
+      },
+      {
+        "index": 2434,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.4504862152203346
+      },
+      {
+        "index": 1495,
+        "true_label": "(0.615, 0.625]",
+        "pred_label": "(0.575, 0.585]",
+        "column_name": "length",
+        "anomaly_score": 3.444202825532951
+      },
+      {
+        "index": 3389,
+        "true_label": "(0.326, 0.38]",
+        "pred_label": "(0.218, 0.234]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.4390646201114117
+      },
+      {
+        "index": 1768,
+        "true_label": "(0.265, 0.3]",
+        "pred_label": "(0.365, 0.38]",
+        "column_name": "diameter",
+        "anomaly_score": 3.436011002030602
+      },
+      {
+        "index": 2044,
+        "true_label": "(0.155, 0.16]",
+        "pred_label": "(0.105, 0.115]",
+        "column_name": "height",
+        "anomaly_score": 3.418987265401864
+      },
+      {
+        "index": 2528,
+        "true_label": "(0.13, 0.135]",
+        "pred_label": "(0.16, 0.165]",
+        "column_name": "height",
+        "anomaly_score": 3.4188529836088435
+      },
+      {
+        "index": 3071,
+        "true_label": "(0.45, 0.46]",
+        "pred_label": "(0.505, 0.522]",
+        "column_name": "diameter",
+        "anomaly_score": 3.4102739617229036
+      },
+      {
+        "index": 16,
+        "true_label": "(0.109, 0.13]",
+        "pred_label": "(0.065, 0.085]",
+        "column_name": "shell_weight",
+        "anomaly_score": 3.407933128794986
+      },
+      {
+        "index": 2156,
+        "true_label": "(0.171, 0.185]",
+        "pred_label": "(0.298, 0.326]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.402667428008109
+      },
+      {
+        "index": 1682,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.3944922199870153
+      },
+      {
+        "index": 4011,
+        "true_label": "(0.522, 0.545]",
+        "pred_label": "(0.47, 0.48]",
+        "column_name": "diameter",
+        "anomaly_score": 3.3907958271450713
+      },
+      {
+        "index": 621,
+        "true_label": "(16.0, 29.0]",
+        "pred_label": "(7.0, 8.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.3859693733154983
+      },
+      {
+        "index": 2987,
+        "true_label": "(0.395, 0.41]",
+        "pred_label": "(0.495, 0.505]",
+        "column_name": "diameter",
+        "anomaly_score": 3.3827905152159787
+      },
+      {
+        "index": 172,
+        "true_label": "(0.51, 0.525]",
+        "pred_label": "(0.585, 0.6]",
+        "column_name": "length",
+        "anomaly_score": 3.379741809614009
+      },
+      {
+        "index": 1128,
+        "true_label": "(0.58, 0.645]",
+        "pred_label": "(0.8, 0.868]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.378967535040376
+      },
+      {
+        "index": 3172,
+        "true_label": "(0.175, 0.18]",
+        "pred_label": "(0.12, 0.125]",
+        "column_name": "height",
+        "anomaly_score": 3.3782364527617585
+      },
+      {
+        "index": 1637,
+        "true_label": "(7.0, 8.0]",
+        "pred_label": "(16.0, 29.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.3767215047325445
+      },
+      {
+        "index": 2929,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.375813959310487
+      },
+      {
+        "index": 760,
+        "true_label": "(1.24, 1.34]",
+        "pred_label": "(1.004, 1.084]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.3746637873547503
+      },
+      {
+        "index": 159,
+        "true_label": "(0.42, 0.48]",
+        "pred_label": "(0.287, 0.308]",
+        "column_name": "shell_weight",
+        "anomaly_score": 3.368024654994638
+      },
+      {
+        "index": 820,
+        "true_label": "(0.13, 0.135]",
+        "pred_label": "(0.075, 0.09]",
+        "column_name": "height",
+        "anomaly_score": 3.364481801277811
+      },
+      {
+        "index": 3396,
+        "true_label": "(1.479, 1.701]",
+        "pred_label": "(1.24, 1.34]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.3625156048046203
+      },
+      {
+        "index": 3827,
+        "true_label": "(1.701, 100.0]",
+        "pred_label": "(1.34, 1.479]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.3578763385311974
+      },
+      {
+        "index": 3403,
+        "true_label": "(8.0, 9.0]",
+        "pred_label": "(6.0, 7.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.3577512463690877
+      },
+      {
+        "index": 2519,
+        "true_label": "(0.18, 0.185]",
+        "pred_label": "(0.12, 0.125]",
+        "column_name": "height",
+        "anomaly_score": 3.3400222840505593
+      },
+      {
+        "index": 2692,
+        "true_label": "(0.12, 0.125]",
+        "pred_label": "(0.16, 0.165]",
+        "column_name": "height",
+        "anomaly_score": 3.3389949969620747
+      },
+      {
+        "index": 2416,
+        "true_label": "(16.0, 29.0]",
+        "pred_label": "(6.0, 7.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.338970639862023
+      },
+      {
+        "index": 498,
+        "true_label": "(0.522, 0.545]",
+        "pred_label": "(0.47, 0.48]",
+        "column_name": "diameter",
+        "anomaly_score": 3.3165235491321887
+      },
+      {
+        "index": 873,
+        "true_label": "(0.156, 0.171]",
+        "pred_label": "(0.273, 0.298]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.2917699304968955
+      },
+      {
+        "index": 2997,
+        "true_label": "(0.105, 0.115]",
+        "pred_label": "(0.16, 0.165]",
+        "column_name": "height",
+        "anomaly_score": 3.2752624964926356
+      },
+      {
+        "index": 2667,
+        "true_label": "(6.0, 7.0]",
+        "pred_label": "(8.0, 9.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.2662661362937238
+      },
+      {
+        "index": 2801,
+        "true_label": "(0.075, 0.09]",
+        "pred_label": "(0.14, 0.15]",
+        "column_name": "height",
+        "anomaly_score": 3.2656285333538295
+      },
+      {
+        "index": 3369,
+        "true_label": "(1.24, 1.34]",
+        "pred_label": "(1.004, 1.084]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.257546640234244
+      },
+      {
+        "index": 36,
+        "true_label": "(0.525, 0.545]",
+        "pred_label": "(0.6, 0.615]",
+        "column_name": "length",
+        "anomaly_score": 3.252850404043956
+      },
+      {
+        "index": 1416,
+        "true_label": "(0.19, 0.21]",
+        "pred_label": "(0.42, 0.48]",
+        "column_name": "shell_weight",
+        "anomaly_score": 3.243029004223414
+      },
+      {
+        "index": 3367,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.2323673540723523
+      },
+      {
+        "index": 3121,
+        "true_label": "(6.0, 7.0]",
+        "pred_label": "(8.0, 9.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.2308510992390618
+      },
+      {
+        "index": 2986,
+        "true_label": "(0.395, 0.41]",
+        "pred_label": "(0.48, 0.495]",
+        "column_name": "diameter",
+        "anomaly_score": 3.2278606154204352
+      },
+      {
+        "index": 1919,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.2263135725619447
+      },
+      {
+        "index": 85,
+        "true_label": "(0.336, 0.368]",
+        "pred_label": "(0.542, 0.59]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.2241061885603246
+      },
+      {
+        "index": 3331,
+        "true_label": "(0.325, 0.35]",
+        "pred_label": "(0.395, 0.41]",
+        "column_name": "diameter",
+        "anomaly_score": 3.2240615131110877
+      },
+      {
+        "index": 532,
+        "true_label": "(11.0, 12.0]",
+        "pred_label": "(7.0, 8.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.2154241994931128
+      },
+      {
+        "index": 1586,
+        "true_label": "(0.51, 0.525]",
+        "pred_label": "(0.45, 0.47]",
+        "column_name": "length",
+        "anomaly_score": 3.2076926994928776
+      },
+      {
+        "index": 2228,
+        "true_label": "(0.165, 0.175]",
+        "pred_label": "(0.13, 0.135]",
+        "column_name": "height",
+        "anomaly_score": 3.2043149269504414
+      },
+      {
+        "index": 3732,
+        "true_label": "(0.41, 0.425]",
+        "pred_label": "(0.522, 0.545]",
+        "column_name": "diameter",
+        "anomaly_score": 3.194198794690376
+      },
+      {
+        "index": 1358,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.187952476674604
+      },
+      {
+        "index": 1416,
+        "true_label": "(0.125, 0.13]",
+        "pred_label": "(0.185, 0.2]",
+        "column_name": "height",
+        "anomaly_score": 3.179502187855993
+      },
+      {
+        "index": 678,
+        "true_label": "(0.425, 0.45]",
+        "pred_label": "(0.51, 0.525]",
+        "column_name": "length",
+        "anomaly_score": 3.1775954585075445
+      },
+      {
+        "index": 1684,
+        "true_label": "(0.615, 0.625]",
+        "pred_label": "(0.545, 0.56]",
+        "column_name": "length",
+        "anomaly_score": 3.1759106374414423
+      },
+      {
+        "index": 999,
+        "true_label": "(1.084, 1.154]",
+        "pred_label": "(0.8, 0.868]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.1657245862880234
+      },
+      {
+        "index": 1434,
+        "true_label": "(0.186, 0.214]",
+        "pred_label": "(0.0865, 0.12]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.152779667101271
+      },
+      {
+        "index": 1298,
+        "true_label": "(0.468, 0.502]",
+        "pred_label": "(0.274, 0.304]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.1515051679711914
+      },
+      {
+        "index": 4132,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.1510356370523347
+      },
+      {
+        "index": 270,
+        "true_label": "(0.434, 0.468]",
+        "pred_label": "(0.74, 1.488]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.1488051297823967
+      },
+      {
+        "index": 3518,
+        "true_label": "(1.34, 1.479]",
+        "pred_label": "(1.701, 100.0]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.137158077094603
+      },
+      {
+        "index": 1885,
+        "true_label": "(0.165, 0.175]",
+        "pred_label": "(0.135, 0.14]",
+        "column_name": "height",
+        "anomaly_score": 3.1337594591564284
+      },
+      {
+        "index": 3950,
+        "true_label": "(0.186, 0.214]",
+        "pred_label": "(0.304, 0.336]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.1252188046148173
+      },
+      {
+        "index": 331,
+        "true_label": "F",
+        "pred_label": "I",
+        "column_name": "sex",
+        "anomaly_score": 3.100655784323996
+      },
+      {
+        "index": 2395,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.100009701073247
+      },
+      {
+        "index": 2127,
+        "true_label": "(0.126, 0.205]",
+        "pred_label": "(0.282, 0.366]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.0897854610399325
+      },
+      {
+        "index": 747,
+        "true_label": "(0.201, 0.218]",
+        "pred_label": "(0.125, 0.14]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.0864904434824565
+      },
+      {
+        "index": 4085,
+        "true_label": "(0.575, 0.585]",
+        "pred_label": "(0.625, 0.645]",
+        "column_name": "length",
+        "anomaly_score": 3.0864340632822014
+      },
+      {
+        "index": 3128,
+        "true_label": "(0.15, 0.17]",
+        "pred_label": "(0.38, 0.42]",
+        "column_name": "shell_weight",
+        "anomaly_score": 3.083379057590844
+      },
+      {
+        "index": 2592,
+        "true_label": "(6.0, 7.0]",
+        "pred_label": "(9.0, 10.0]",
+        "column_name": "rings",
+        "anomaly_score": 3.080401744987525
+      },
+      {
+        "index": 3484,
+        "true_label": "(0.155, 0.16]",
+        "pred_label": "(0.12, 0.125]",
+        "column_name": "height",
+        "anomaly_score": 3.0747842249318493
+      },
+      {
+        "index": 2479,
+        "true_label": "(0.186, 0.214]",
+        "pred_label": "(0.336, 0.368]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.0711747869641144
+      },
+      {
+        "index": 1323,
+        "true_label": "(0.542, 0.59]",
+        "pred_label": "(0.368, 0.4]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.0668131625838053
+      },
+      {
+        "index": 775,
+        "true_label": "(0.186, 0.214]",
+        "pred_label": "(0.336, 0.368]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.0662060207354886
+      },
+      {
+        "index": 3926,
+        "true_label": "(0.575, 0.585]",
+        "pred_label": "(0.525, 0.545]",
+        "column_name": "length",
+        "anomaly_score": 3.0644087084386626
+      },
+      {
+        "index": 3485,
+        "true_label": "(0.368, 0.4]",
+        "pred_label": "(0.214, 0.244]",
+        "column_name": "shucked_weight",
+        "anomaly_score": 3.061846395122131
+      },
+      {
+        "index": 3722,
+        "true_label": "(0.156, 0.171]",
+        "pred_label": "(0.0765, 0.0935]",
+        "column_name": "viscera_weight",
+        "anomaly_score": 3.058180153486037
+      },
+      {
+        "index": 343,
+        "true_label": "(0.175, 0.18]",
+        "pred_label": "(0.13, 0.135]",
+        "column_name": "height",
+        "anomaly_score": 3.05388114634868
+      },
+      {
+        "index": 3048,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.0527114423297275
+      },
+      {
+        "index": 2925,
+        "true_label": "I",
+        "pred_label": "F",
+        "column_name": "sex",
+        "anomaly_score": 3.0429433988563646
+      },
+      {
+        "index": 2528,
+        "true_label": "(1.34, 1.479]",
+        "pred_label": "(1.154, 1.24]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.039927598879206
+      },
+      {
+        "index": 2581,
+        "true_label": "(0.15, 0.17]",
+        "pred_label": "(0.234, 0.25]",
+        "column_name": "shell_weight",
+        "anomaly_score": 3.037890041733326
+      },
+      {
+        "index": 3162,
+        "true_label": "(0.135, 0.14]",
+        "pred_label": "(0.165, 0.175]",
+        "column_name": "height",
+        "anomaly_score": 3.033824708750173
+      },
+      {
+        "index": 4112,
+        "true_label": "(0.41, 0.425]",
+        "pred_label": "(0.522, 0.545]",
+        "column_name": "diameter",
+        "anomaly_score": 3.028760683461205
+      },
+      {
+        "index": 3667,
+        "true_label": "(0.41, 0.425]",
+        "pred_label": "(0.46, 0.47]",
+        "column_name": "diameter",
+        "anomaly_score": 3.0187818140541256
+      },
+      {
+        "index": 85,
+        "true_label": "(1.24, 1.34]",
+        "pred_label": "(0.93, 1.004]",
+        "column_name": "whole_weight",
+        "anomaly_score": 3.0058520682993617
+      }
+    ]
+  },
+  "info": {
+    "n_rows": 4177,
+    "dtypes": {
+      "index": "int64",
+      "sex": "object",
+      "length": "float64",
+      "diameter": "float64",
+      "height": "float64",
+      "whole_weight": "float64",
+      "shucked_weight": "float64",
+      "viscera_weight": "float64",
+      "shell_weight": "float64",
+      "rings": "int64"
+    },
+    "regression_columns": [
+      "length",
+      "diameter",
+      "height",
+      "whole_weight",
+      "shucked_weight",
+      "viscera_weight",
+      "shell_weight",
+      "rings"
+    ],
+    "classification_columns": [
+      "sex"
+    ],
+    "value_counts": {
+      "sex": {
+        "M": 1528,
+        "I": 1342,
+        "F": 1307
+      },
+      "length": {
+        "(0.625, 0.645]": 269,
+        "(0.56, 0.575]": 237,
+        "(0.525, 0.545]": 232,
+        "(0.49, 0.51]": 225,
+        "(0.585, 0.6]": 224,
+        "(0.074, 0.295]": 214,
+        "(0.295, 0.355]": 214,
+        "(0.425, 0.45]": 214,
+        "(0.39, 0.425]": 213,
+        "(0.355, 0.39]": 212,
+        "(0.545, 0.56]": 210,
+        "(0.51, 0.525]": 208,
+        "(0.69, 0.815]": 207,
+        "(0.6, 0.615]": 205,
+        "(0.47, 0.49]": 202,
+        "(0.45, 0.47]": 200,
+        "(0.615, 0.625]": 181,
+        "(0.66, 0.69]": 179,
+        "(0.645, 0.66]": 175,
+        "(0.575, 0.585]": 156
+      },
+      "diameter": {
+        "(0.435, 0.45]": 284,
+        "(0.325, 0.35]": 253,
+        "(0.395, 0.41]": 245,
+        "(0.265, 0.3]": 243,
+        "(0.48, 0.495]": 232,
+        "(0.41, 0.425]": 224,
+        "(0.054, 0.22]": 219,
+        "(0.365, 0.38]": 212,
+        "(0.522, 0.545]": 212,
+        "(0.47, 0.48]": 211,
+        "(0.22, 0.265]": 207,
+        "(0.545, 0.65]": 206,
+        "(0.3, 0.325]": 194,
+        "(0.505, 0.522]": 193,
+        "(0.46, 0.47]": 181,
+        "(0.38, 0.395]": 179,
+        "(0.45, 0.46]": 179,
+        "(0.495, 0.505]": 178,
+        "(0.35, 0.365]": 176,
+        "(0.425, 0.435]": 149
+      },
+      "height": {
+        "(0.14, 0.15]": 449,
+        "(0.165, 0.175]": 371,
+        "(0.075, 0.09]": 274,
+        "(0.105, 0.115]": 268,
+        "(-0.001, 0.075]": 264,
+        "(0.095, 0.105]": 259,
+        "(0.185, 0.2]": 249,
+        "(0.135, 0.14]": 220,
+        "(0.15, 0.155]": 217,
+        "(0.155, 0.16]": 205,
+        "(0.12, 0.125]": 202,
+        "(0.16, 0.165]": 193,
+        "(0.13, 0.135]": 189,
+        "(0.125, 0.13]": 169,
+        "(0.115, 0.12]": 169,
+        "(0.2, 1.13]": 154,
+        "(0.175, 0.18]": 131,
+        "(0.18, 0.185]": 103,
+        "(0.09, 0.095]": 91
+      },
+      "whole_weight": {
+        "(0.508, 0.58]": 211,
+        "(1.004, 1.084]": 211,
+        "(1.24, 1.34]": 210,
+        "(0.126, 0.205]": 210,
+        "(0.645, 0.724]": 209,
+        "(0.282, 0.366]": 209,
+        "(0.724, 0.8]": 209,
+        "(0.868, 0.93]": 209,
+        "(0.001, 0.126]": 209,
+        "(0.205, 0.282]": 209,
+        "(1.701, 100.0]": 209,
+        "(0.8, 0.868]": 209,
+        "(1.479, 1.701]": 209,
+        "(1.084, 1.154]": 208,
+        "(0.93, 1.004]": 208,
+        "(1.154, 1.24]": 208,
+        "(0.442, 0.508]": 208,
+        "(0.366, 0.442]": 208,
+        "(0.58, 0.645]": 207,
+        "(1.34, 1.479]": 207
+      },
+      "shucked_weight": {
+        "(0.244, 0.274]": 213,
+        "(0.304, 0.336]": 213,
+        "(0.0524, 0.0865]": 212,
+        "(0.4, 0.434]": 211,
+        "(0.59, 0.647]": 210,
+        "(0.468, 0.502]": 210,
+        "(0.186, 0.214]": 210,
+        "(0.12, 0.157]": 209,
+        "(0.0, 0.0524]": 209,
+        "(0.74, 1.488]": 209,
+        "(0.542, 0.59]": 209,
+        "(0.214, 0.244]": 208,
+        "(0.647, 0.74]": 208,
+        "(0.0865, 0.12]": 208,
+        "(0.157, 0.186]": 207,
+        "(0.434, 0.468]": 207,
+        "(0.502, 0.542]": 207,
+        "(0.336, 0.368]": 206,
+        "(0.368, 0.4]": 206,
+        "(0.274, 0.304]": 205
+      },
+      "viscera_weight": {
+        "(0.125, 0.14]": 214,
+        "(0.0765, 0.0935]": 213,
+        "(0.0433, 0.0595]": 213,
+        "(0.14, 0.156]": 212,
+        "(0.156, 0.171]": 211,
+        "(0.298, 0.326]": 210,
+        "(-0.0005, 0.027]": 210,
+        "(0.201, 0.218]": 210,
+        "(0.234, 0.253]": 210,
+        "(0.38, 0.76]": 209,
+        "(0.0595, 0.0765]": 209,
+        "(0.273, 0.298]": 209,
+        "(0.027, 0.0433]": 208,
+        "(0.253, 0.273]": 208,
+        "(0.185, 0.201]": 207,
+        "(0.218, 0.234]": 206,
+        "(0.0935, 0.108]": 205,
+        "(0.326, 0.38]": 205,
+        "(0.108, 0.125]": 204,
+        "(0.171, 0.185]": 204
+      },
+      "shell_weight": {
+        "(0.0384, 0.065]": 223,
+        "(0.109, 0.13]": 220,
+        "(0.234, 0.25]": 219,
+        "(0.25, 0.27]": 218,
+        "(0.38, 0.42]": 218,
+        "(0.15, 0.17]": 215,
+        "(0.19, 0.21]": 212,
+        "(0.13, 0.15]": 211,
+        "(0.308, 0.329]": 210,
+        "(0.352, 0.38]": 210,
+        "(0.0005, 0.0384]": 209,
+        "(0.287, 0.308]": 208,
+        "(0.48, 1.005]": 208,
+        "(0.329, 0.352]": 207,
+        "(0.21, 0.234]": 207,
+        "(0.065, 0.085]": 203,
+        "(0.085, 0.109]": 201,
+        "(0.42, 0.48]": 200,
+        "(0.17, 0.19]": 190,
+        "(0.27, 0.287]": 188
+      },
+      "rings": {
+        "(8.0, 9.0]": 689,
+        "(9.0, 10.0]": 634,
+        "(7.0, 8.0]": 568,
+        "(10.0, 11.0]": 487,
+        "(0.999, 6.0]": 448,
+        "(6.0, 7.0]": 391,
+        "(11.0, 12.0]": 267,
+        "(12.0, 13.0]": 203,
+        "(16.0, 29.0]": 194,
+        "(14.0, 16.0]": 170,
+        "(13.0, 14.0]": 126
+      }
+    }
+  },
+  "ignore_columns": [
+    "index"
+  ]
+}
