@@ -1,6 +1,6 @@
 {
   "info": {
-    "max_n_changes": 135,
+    "max_n_changes": 100,
     "anomaly_thresh": 4.0,
     "k_folds": 5,
     "reg_quantiles": 20,
@@ -781,58 +781,42 @@
           "pred": "I",
           "anomaly_score": 4.016986652447055,
           "column_name": "sex"
-        },
-        "35": {
-          "index": 2164,
-          "current": "M",
-          "pred": "I",
-          "anomaly_score": 4.006134113513794,
-          "column_name": "sex"
         }
       },
       {
         "0": {
-          "index": 2468,
-          "current": "F",
-          "pred": "I",
-          "anomaly_score": 6.063102260647163,
+          "index": 2537,
+          "current": "I",
+          "pred": "F",
+          "anomaly_score": 6.749384882779786,
           "column_name": "sex"
         },
         "1": {
-          "index": 719,
-          "current": 0.0045,
-          "pred": -0.0002654655164772701,
-          "anomaly_score": 5.950128144615547,
-          "column_name": "shucked_weight"
-        },
-        "2": {
-          "index": 1184,
+          "index": 3327,
           "current": "I",
           "pred": "F",
-          "anomaly_score": 5.85913453491495,
+          "anomaly_score": 6.276314695666809,
+          "column_name": "sex"
+        },
+        "2": {
+          "index": 3201,
+          "current": "F",
+          "pred": "I",
+          "anomaly_score": 6.087988870504705,
           "column_name": "sex"
         },
         "3": {
-          "index": 627,
-          "current": "F",
-          "pred": "I",
-          "anomaly_score": 5.783314048751202,
-          "column_name": "sex"
+          "index": 719,
+          "current": 0.0045,
+          "pred": -0.0002654655164772701,
+          "anomaly_score": 5.88455712774271,
+          "column_name": "shucked_weight"
         },
         "4": {
-          "index": 719,
-          "current": 0.0004537954390448351,
-          "pred": 0.0036234676286194256,
-          "anomaly_score": 5.406958842419986,
-          "column_name": "shell_weight"
-        }
-      },
-      {
-        "0": {
-          "index": 2394,
+          "index": 4132,
           "current": "I",
           "pred": "F",
-          "anomaly_score": 8.663410783041645,
+          "anomaly_score": 5.850462611921496,
           "column_name": "sex"
         }
       }
@@ -1014,640 +998,634 @@
       "new_value": 0.24329105902836695
     },
     "29": {
-      "index": 627,
-      "column_name": "sex",
-      "current_value": "F",
-      "new_value": "I"
-    },
-    "30": {
       "index": 631,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "31": {
+    "30": {
       "index": 637,
       "column_name": "sex",
       "current_value": "M",
       "new_value": "I"
     },
-    "32": {
+    "31": {
       "index": 641,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "33": {
+    "32": {
       "index": 648,
       "column_name": "viscera_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.10405989655066164
     },
-    "34": {
+    "33": {
       "index": 658,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "35": {
+    "34": {
       "index": 719,
       "column_name": "shucked_weight",
       "current_value": 0.0045,
       "new_value": -0.0002654655164772701
     },
-    "36": {
+    "35": {
       "index": 719,
       "column_name": "shell_weight",
       "current_value": 0.005,
-      "new_value": 0.0036234676286194256
+      "new_value": 0.0004537954390448351
     },
-    "37": {
+    "36": {
       "index": 741,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "38": {
+    "37": {
       "index": 763,
       "column_name": "shell_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.4623681450163298
     },
-    "39": {
+    "38": {
       "index": 849,
       "column_name": "shell_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.2864645373946487
     },
-    "40": {
+    "39": {
       "index": 874,
       "column_name": "shell_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.38922635303725306
     },
-    "41": {
+    "40": {
       "index": 878,
       "column_name": "shucked_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.6312746845537971
     },
-    "42": {
+    "41": {
       "index": 898,
       "column_name": "diameter",
       "current_value": 0.12,
       "new_value": 0.21070882897238372
     },
-    "43": {
+    "42": {
       "index": 958,
       "column_name": "length",
       "current_value": "NO_VALUE",
       "new_value": 0.4983092735968437
     },
-    "44": {
+    "43": {
       "index": 1174,
       "column_name": "height",
       "current_value": 0.015,
       "new_value": 0.159791032329868
     },
-    "45": {
+    "44": {
       "index": 1181,
       "column_name": "rings",
       "current_value": "NO_VALUE",
       "new_value": 10.436253970927465
     },
-    "46": {
-      "index": 1184,
-      "column_name": "sex",
-      "current_value": "I",
-      "new_value": "F"
-    },
-    "47": {
+    "45": {
       "index": 1210,
       "column_name": "length",
       "current_value": 0.185,
       "new_value": 0.4714722367875936
     },
-    "48": {
+    "46": {
       "index": 1210,
       "column_name": "diameter",
       "current_value": 0.375,
       "new_value": 0.3566243650169325
     },
-    "49": {
+    "47": {
       "index": 1216,
       "column_name": "whole_weight",
       "current_value": 0.1055,
       "new_value": 0.11693379163367812
     },
-    "50": {
+    "48": {
       "index": 1216,
       "column_name": "shucked_weight",
       "current_value": 0.435,
       "new_value": 0.047036638047494306
     },
-    "51": {
+    "49": {
       "index": 1257,
       "column_name": "height",
       "current_value": 0.0,
       "new_value": 0.1100100550863389
     },
-    "52": {
+    "50": {
       "index": 1354,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "M"
     },
-    "53": {
+    "51": {
       "index": 1358,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "54": {
+    "52": {
       "index": 1383,
       "column_name": "shell_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.31855999998070605
     },
-    "55": {
+    "53": {
       "index": 1385,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "56": {
+    "54": {
       "index": 1417,
       "column_name": "height",
       "current_value": 0.515,
       "new_value": 0.19907902792933668
     },
-    "57": {
+    "55": {
       "index": 1436,
       "column_name": "viscera_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.05800542909089451
     },
-    "58": {
+    "56": {
       "index": 1447,
       "column_name": "height",
       "current_value": "NO_VALUE",
       "new_value": 0.11297810776649703
     },
-    "59": {
+    "57": {
       "index": 1545,
       "column_name": "length",
       "current_value": "NO_VALUE",
       "new_value": 0.37649862088794206
     },
-    "60": {
+    "58": {
       "index": 1578,
       "column_name": "viscera_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.10333481734212877
     },
-    "61": {
+    "59": {
       "index": 1627,
       "column_name": "sex",
       "current_value": "NO_VALUE",
       "new_value": "I"
     },
-    "62": {
+    "60": {
       "index": 1649,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "63": {
+    "61": {
       "index": 1682,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "64": {
+    "62": {
       "index": 1764,
       "column_name": "length",
       "current_value": 0.275,
       "new_value": 0.36262971254025533
     },
-    "65": {
+    "63": {
       "index": 1764,
       "column_name": "diameter",
       "current_value": 0.175,
       "new_value": 0.2523369373828033
     },
-    "66": {
+    "64": {
       "index": 1786,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "M"
     },
-    "67": {
+    "65": {
       "index": 1787,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "68": {
+    "66": {
       "index": 1936,
       "column_name": "diameter",
       "current_value": "NO_VALUE",
       "new_value": 0.4799432082568276
     },
-    "69": {
+    "67": {
       "index": 1986,
       "column_name": "length",
       "current_value": 0.135,
       "new_value": 0.1828204533886722
     },
-    "70": {
+    "68": {
       "index": 2051,
       "column_name": "height",
       "current_value": 1.13,
       "new_value": 0.1205097651103752
     },
-    "71": {
+    "69": {
       "index": 2114,
       "column_name": "length",
       "current_value": 0.13,
       "new_value": 0.17239436039658068
     },
-    "72": {
+    "70": {
       "index": 2117,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "73": {
+    "71": {
       "index": 2123,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "74": {
+    "72": {
       "index": 2127,
       "column_name": "whole_weight",
       "current_value": 0.127,
       "new_value": 0.27951535913875203
     },
-    "75": {
+    "73": {
       "index": 2143,
       "column_name": "sex",
       "current_value": "NO_VALUE",
       "new_value": "I"
     },
-    "76": {
+    "74": {
       "index": 2152,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "77": {
+    "75": {
       "index": 2163,
       "column_name": "sex",
       "current_value": "NO_VALUE",
       "new_value": "M"
     },
-    "78": {
-      "index": 2164,
-      "column_name": "sex",
-      "current_value": "M",
-      "new_value": "I"
-    },
-    "79": {
+    "76": {
       "index": 2167,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "80": {
+    "77": {
       "index": 2169,
       "column_name": "height",
       "current_value": 0.015,
       "new_value": 0.04092178348303267
     },
-    "81": {
+    "78": {
       "index": 2169,
       "column_name": "whole_weight",
       "current_value": 0.0145,
       "new_value": 0.030818250040686168
     },
-    "82": {
+    "79": {
       "index": 2206,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "83": {
+    "80": {
       "index": 2264,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "84": {
+    "81": {
       "index": 2369,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "85": {
+    "82": {
       "index": 2376,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "86": {
+    "83": {
       "index": 2380,
       "column_name": "sex",
       "current_value": "M",
       "new_value": "I"
     },
-    "87": {
-      "index": 2394,
-      "column_name": "sex",
-      "current_value": "I",
-      "new_value": "F"
-    },
-    "88": {
+    "84": {
       "index": 2396,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "M"
     },
-    "89": {
+    "85": {
       "index": 2407,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "90": {
+    "86": {
       "index": 2408,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "91": {
-      "index": 2468,
-      "column_name": "sex",
-      "current_value": "F",
-      "new_value": "I"
-    },
-    "92": {
+    "87": {
       "index": 2533,
       "column_name": "viscera_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.299095326619162
     },
-    "93": {
+    "88": {
+      "index": 2537,
+      "column_name": "sex",
+      "current_value": "I",
+      "new_value": "F"
+    },
+    "89": {
       "index": 2567,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "94": {
+    "90": {
       "index": 2627,
       "column_name": "length",
       "current_value": 0.275,
       "new_value": 0.27515928694589187
     },
-    "95": {
+    "91": {
       "index": 2627,
       "column_name": "whole_weight",
       "current_value": 0.1055,
       "new_value": 0.12076811412255195
     },
-    "96": {
+    "92": {
       "index": 2627,
       "column_name": "shucked_weight",
       "current_value": 0.495,
       "new_value": 0.03875674851970101
     },
-    "97": {
+    "93": {
       "index": 2636,
       "column_name": "sex",
       "current_value": "NO_VALUE",
       "new_value": "I"
     },
-    "98": {
+    "94": {
       "index": 2641,
       "column_name": "whole_weight",
       "current_value": 0.1315,
       "new_value": 0.4502688887500424
     },
-    "99": {
+    "95": {
       "index": 2682,
       "column_name": "length",
       "current_value": "NO_VALUE",
       "new_value": 0.6128787603932432
     },
-    "100": {
+    "96": {
       "index": 2686,
       "column_name": "diameter",
       "current_value": "NO_VALUE",
       "new_value": 0.5004915813315676
     },
-    "101": {
+    "97": {
       "index": 2711,
       "column_name": "length",
       "current_value": "NO_VALUE",
       "new_value": 0.17954170545983644
     },
-    "102": {
+    "98": {
       "index": 2722,
       "column_name": "shell_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.07138523279967521
     },
-    "103": {
+    "99": {
       "index": 2726,
       "column_name": "sex",
       "current_value": "NO_VALUE",
       "new_value": "I"
     },
-    "104": {
+    "100": {
       "index": 2915,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "M"
     },
-    "105": {
+    "101": {
       "index": 2929,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "106": {
+    "102": {
       "index": 2962,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "107": {
+    "103": {
       "index": 3086,
       "column_name": "shucked_weight",
       "current_value": 0.3045,
       "new_value": 0.08480130577382333
     },
-    "108": {
+    "104": {
       "index": 3137,
       "column_name": "height",
       "current_value": "NO_VALUE",
       "new_value": 0.12490976560981902
     },
-    "109": {
+    "105": {
       "index": 3159,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "110": {
+    "106": {
       "index": 3180,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "111": {
+    "107": {
+      "index": 3201,
+      "column_name": "sex",
+      "current_value": "F",
+      "new_value": "I"
+    },
+    "108": {
       "index": 3305,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "112": {
+    "109": {
+      "index": 3327,
+      "column_name": "sex",
+      "current_value": "I",
+      "new_value": "F"
+    },
+    "110": {
       "index": 3328,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "113": {
+    "111": {
       "index": 3337,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "114": {
+    "112": {
       "index": 3414,
       "column_name": "sex",
       "current_value": "F",
       "new_value": "I"
     },
-    "115": {
+    "113": {
       "index": 3522,
       "column_name": "viscera_weight",
       "current_value": 0.0005,
       "new_value": 0.015369151585176821
     },
-    "116": {
+    "114": {
       "index": 3586,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "117": {
+    "115": {
       "index": 3665,
       "column_name": "whole_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.8975985852001367
     },
-    "118": {
+    "116": {
       "index": 3688,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "119": {
+    "117": {
       "index": 3716,
       "column_name": "length",
       "current_value": 0.235,
       "new_value": 0.31391809949644944
     },
-    "120": {
+    "118": {
       "index": 3716,
       "column_name": "diameter",
       "current_value": 0.13,
       "new_value": 0.2257310050401509
     },
-    "121": {
+    "119": {
       "index": 3783,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "122": {
+    "120": {
       "index": 3814,
       "column_name": "shell_weight",
       "current_value": 0.21,
       "new_value": 0.07025353114765046
     },
-    "123": {
+    "121": {
       "index": 3899,
       "column_name": "length",
       "current_value": 0.14,
       "new_value": 0.202021080694622
     },
-    "124": {
+    "122": {
       "index": 3902,
       "column_name": "height",
       "current_value": 0.02,
       "new_value": 0.04813006193132936
     },
-    "125": {
+    "123": {
       "index": 3905,
       "column_name": "sex",
       "current_value": "M",
       "new_value": "I"
     },
-    "126": {
+    "124": {
       "index": 3913,
       "column_name": "height",
       "current_value": "NO_VALUE",
       "new_value": 0.14236387072369175
     },
-    "127": {
+    "125": {
       "index": 3928,
       "column_name": "sex",
       "current_value": "I",
       "new_value": "F"
     },
-    "128": {
+    "126": {
       "index": 3996,
       "column_name": "length",
       "current_value": 0.315,
       "new_value": 0.41539983395015656
     },
-    "129": {
+    "127": {
       "index": 3996,
       "column_name": "diameter",
       "current_value": 0.23,
       "new_value": 0.3223800332019334
     },
-    "130": {
+    "128": {
       "index": 3996,
       "column_name": "height",
       "current_value": 0.0,
       "new_value": 0.12490036261546147
     },
-    "131": {
+    "129": {
       "index": 3996,
       "column_name": "whole_weight",
       "current_value": 0.134,
       "new_value": 0.3823505860080721
     },
-    "132": {
+    "130": {
       "index": 3996,
       "column_name": "shucked_weight",
       "current_value": 0.0575,
       "new_value": 0.22133422801985228
     },
-    "133": {
+    "131": {
       "index": 3996,
       "column_name": "shell_weight",
       "current_value": 0.3505,
       "new_value": 0.10706337286250764
     },
-    "134": {
+    "132": {
       "index": 4080,
       "column_name": "whole_weight",
       "current_value": "NO_VALUE",
       "new_value": 0.7151703805623866
+    },
+    "133": {
+      "index": 4132,
+      "column_name": "sex",
+      "current_value": "I",
+      "new_value": "F"
     }
   }
 }
